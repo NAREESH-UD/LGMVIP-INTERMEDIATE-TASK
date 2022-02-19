@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>ENROLLMENT FORM</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <h1>Internship Enrolllment form</h1>
+    <h2>@Let's Grow More</h2>
+    <table class="table1">
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="Name" >Name:</label>
+                        <input type="text" name="Name" id="Name" placeholder="Type your good name">
+                    </div>
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input type="Email" name="Email" id="Email" placeholder="Type your email address">
+                    </div>
+                    <div>
+                        <label for="Phone">Phone:</label>
+                        <input type="text" name="Phone" id="Phone"  placeholder="Type your phone number">
+                    </div>
+                    <div>
+                    <label>   
+                        Gender:  
+                        </label>
+                        <input type="text" name="Gender" id="Gender" placeholder=" Type your gender">   
+                        
+                    </div>
+                    
+                    <div>
+                        <label>Skills:</label> 
+                        
+                        
+                        <input type="text" name="Skills" id="Skills"  placeholder="write your skills">
+                        
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Gender</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
